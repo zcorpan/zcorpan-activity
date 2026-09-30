@@ -385,6 +385,22 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
   - [mdn/mdn#392](https://github.com/mdn/mdn/issues/392), [mdn/content#25544](https://github.com/mdn/content/issues/25544), [#26745](https://github.com/mdn/content/issues/26745), [#31015](https://github.com/mdn/content/pull/31015)
   - Reviewed the web compat survey: [mdn/yari#8097](https://github.com/mdn/yari/pull/8097)
 
+## 2022 (from November 15)
+
+### Joining Mozilla
+
+- Updated affiliation: [whatwg/html#8508](https://github.com/whatwg/html/pull/8508), [whatwg/quirks#68](https://github.com/whatwg/quirks/pull/68)
+- Handed over AT Driver editing: [w3c/at-driver#36](https://github.com/w3c/at-driver/pull/36)
+
+### Reviews and feedback
+
+- HTML reviews:
+  - Scroll restoration: [whatwg/html#8528](https://github.com/whatwg/html/pull/8528)
+  - Palpable content: [#8571](https://github.com/whatwg/html/pull/8571)
+- wpt reviews: [wpt#36331](https://github.com/web-platform-tests/wpt/pull/36331), [#36213](https://github.com/web-platform-tests/wpt/pull/36213)
+- `<search>` standards position: [mozilla/standards-positions#610](https://github.com/mozilla/standards-positions/issues/610)
+- WebTransport: [w3c/webtransport#450](https://github.com/w3c/webtransport/issues/450)
+
 ## Caveats
 
 - "Reviewed" includes a few older PRs that were only updated in that year.

@@ -49,6 +49,7 @@ The search API caps results at 1000 per query. For long periods, split the range
 ## What to include
 
 - Omit clearly personal projects: `zcorpan/html-parser-book`, `zcorpan/.claude`.
+- Mozilla work starts 2022-11-15; earlier activity (Bocoup) is out of scope.
 - Group by theme (e.g. Sanitizer/streaming parsing, media elements, navigation, spec infrastructure, standards positions), not by repo.
 - Link every cited item. Label links `repo#N` (`whatwg/html#12492`, `wpt#60210`); in a list that already names the repo, `#N` is enough.
 - Keep the caveats section: it records what the data misses (Bugzilla, Phabricator, non-default-branch commits).
