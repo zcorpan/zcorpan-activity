@@ -55,4 +55,4 @@ The search API caps results at 1000 per query. For long periods, split the range
 
 ## Format
 
-Markdown with a `#` title, one `##` per theme, and nested bullet lists.
+Markdown with a `#` title, one `##` per year (newest first), one `###` per theme, and nested bullet lists. The `## Caveats` section stays last. Mark the current year as partial, e.g. `## 2026 (through September)`.
