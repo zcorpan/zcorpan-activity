@@ -282,6 +282,109 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
 - Use counters link: [mozilla/telemetry-dashboard#677](https://github.com/mozilla/telemetry-dashboard/pull/677)
 - Firefox Translations feedback: [mozilla/translations#876](https://github.com/mozilla/translations/issues/876)
 
+## 2023
+
+### Mozilla standards positions
+
+- Positions:
+  - [Popover API](https://github.com/mozilla/standards-positions/pull/729)
+  - Declarative Shadow DOM ([#740](https://github.com/mozilla/standards-positions/pull/740))
+  - Auto-sizes for lazy-loaded images ([#746](https://github.com/mozilla/standards-positions/pull/746))
+  - Clipboard API ([#764](https://github.com/mozilla/standards-positions/pull/764))
+  - View Transitions ([#822](https://github.com/mozilla/standards-positions/pull/822))
+  - Navigation API ([#830](https://github.com/mozilla/standards-positions/pull/830))
+  - UserActivation ([#899](https://github.com/mozilla/standards-positions/pull/899))
+  - Lazy-loading iframes ([#911](https://github.com/mozilla/standards-positions/pull/911))
+  - Invokers ([#932](https://github.com/mozilla/standards-positions/pull/932))
+- Filed [#838](https://github.com/mozilla/standards-positions/issues/838), [#839](https://github.com/mozilla/standards-positions/issues/839), [#840](https://github.com/mozilla/standards-positions/issues/840)
+- Process:
+  - PRs: [#742](https://github.com/mozilla/standards-positions/pull/742), [#757](https://github.com/mozilla/standards-positions/pull/757), [#869](https://github.com/mozilla/standards-positions/pull/869)
+  - Issues: [#808](https://github.com/mozilla/standards-positions/issues/808), [#819](https://github.com/mozilla/standards-positions/issues/819)
+- Commented on about 27 position threads; reviewed position PRs such as [#803](https://github.com/mozilla/standards-positions/pull/803), [#832](https://github.com/mozilla/standards-positions/pull/832), [#915](https://github.com/mozilla/standards-positions/pull/915)
+
+### Interop accessibility investigation
+
+- Started the investigation:
+  - Kickoff: [web-platform-tests/interop-accessibility#4](https://github.com/web-platform-tests/interop-accessibility/issues/4)
+  - Scoring: [#3](https://github.com/web-platform-tests/interop-accessibility/issues/3)
+  - Monthly meetings (e.g. [#7](https://github.com/web-platform-tests/interop-accessibility/issues/7), [#85](https://github.com/web-platform-tests/interop-accessibility/issues/85))
+- Score updates: [wpt.fyi#3207](https://github.com/web-platform-tests/wpt.fyi/pull/3207), [#3332](https://github.com/web-platform-tests/wpt.fyi/pull/3332), [#3393](https://github.com/web-platform-tests/wpt.fyi/pull/3393)
+- ChromeDriver computed label: [interop-accessibility#65](https://github.com/web-platform-tests/interop-accessibility/issues/65)
+- Interop 2024 accessibility proposal: [web-platform-tests/interop#526](https://github.com/web-platform-tests/interop/issues/526)
+- Repo rename:
+  - [wpt#43126](https://github.com/web-platform-tests/wpt/pull/43126), [#43127](https://github.com/web-platform-tests/wpt/pull/43127)
+  - [wpt.fyi#3604](https://github.com/web-platform-tests/wpt.fyi/pull/3604), [wpt-metadata#5110](https://github.com/web-platform-tests/wpt-metadata/pull/5110)
+  - [WICG/aom#205](https://github.com/WICG/aom/pull/205), [w3c/aria#2077](https://github.com/w3c/aria/pull/2077)
+- Reviewed accessibility tests by James Craig: [wpt#38925](https://github.com/web-platform-tests/wpt/pull/38925), [#42407](https://github.com/web-platform-tests/wpt/pull/42407)
+
+### Interop 2023 test maintenance
+
+- Interop repo:
+  - PRs: [web-platform-tests/interop#279](https://github.com/web-platform-tests/interop/pull/279), [#282](https://github.com/web-platform-tests/interop/pull/282)
+  - Issues: [#280](https://github.com/web-platform-tests/interop/issues/280), [#305](https://github.com/web-platform-tests/interop/issues/305), [#313](https://github.com/web-platform-tests/interop/issues/313), [#345](https://github.com/web-platform-tests/interop/issues/345), [#346](https://github.com/web-platform-tests/interop/issues/346), [#371](https://github.com/web-platform-tests/interop/issues/371)
+- wpt-metadata: [#3754](https://github.com/web-platform-tests/wpt-metadata/pull/3754), [#4055](https://github.com/web-platform-tests/wpt-metadata/pull/4055), [#4506](https://github.com/web-platform-tests/wpt-metadata/pull/4506)
+- wpt: [#39334](https://github.com/web-platform-tests/wpt/pull/39334), [#40898](https://github.com/web-platform-tests/wpt/pull/40898)
+- wpt.fyi: [#3198](https://github.com/web-platform-tests/wpt.fyi/issues/3198)
+
+### `<img sizes=auto>`
+
+- [whatwg/html#9493](https://github.com/whatwg/html/pull/9493); issues [#9448](https://github.com/whatwg/html/issues/9448), [#9648](https://github.com/whatwg/html/issues/9648), [#9649](https://github.com/whatwg/html/issues/9649)
+- Tests: [wpt#41817](https://github.com/web-platform-tests/wpt/pull/41817); docs: [mdn/content#30596](https://github.com/mdn/content/issues/30596)
+
+### `textInput` event
+
+- Specified in UI Events: [w3c/uievents#362](https://github.com/w3c/uievents/pull/362) ([#353](https://github.com/w3c/uievents/issues/353))
+- Event order and default actions: [#354](https://github.com/w3c/uievents/issues/354), [#361](https://github.com/w3c/uievents/issues/361)
+
+### HTML
+
+- Re-added `<source media>` for media elements: [whatwg/html#9341](https://github.com/whatwg/html/pull/9341), [wpt#40330](https://github.com/web-platform-tests/wpt/pull/40330), [mdn/content#27079](https://github.com/mdn/content/issues/27079)
+- `dirname` for more input types: [whatwg/html#9490](https://github.com/whatwg/html/pull/9490)
+- `<embed hidden>` specificity: [whatwg/html#9664](https://github.com/whatwg/html/pull/9664), [wpt#41733](https://github.com/web-platform-tests/wpt/pull/41733)
+- `<img>` pending request null checks: [whatwg/html#9399](https://github.com/whatwg/html/pull/9399); related issues [#9023](https://github.com/whatwg/html/issues/9023), [#9371](https://github.com/whatwg/html/issues/9371)
+- Parser:
+  - Fragment parsing: [whatwg/html#9430](https://github.com/whatwg/html/pull/9430), [#9428](https://github.com/whatwg/html/issues/9428)
+  - Scripting flag: [#9426](https://github.com/whatwg/html/issues/9426)
+- Settings objects: [whatwg/html#9301](https://github.com/whatwg/html/issues/9301), [whatwg/websockets#46](https://github.com/whatwg/websockets/issues/46), [wpt#39978](https://github.com/web-platform-tests/wpt/pull/39978)
+- Other issues: [whatwg/html#9158](https://github.com/whatwg/html/issues/9158), [#9244](https://github.com/whatwg/html/issues/9244), [#9737](https://github.com/whatwg/html/issues/9737)
+- Tests:
+  - `<search>` rendering: [wpt#39163](https://github.com/web-platform-tests/wpt/pull/39163), [validator/validator#1569](https://github.com/validator/validator/issues/1569)
+  - Stylesheet MIME type quirk origin check: [wpt#41744](https://github.com/web-platform-tests/wpt/pull/41744)
+  - `pushState()` URL resolution: [wpt#41797](https://github.com/web-platform-tests/wpt/pull/41797)
+  - UA style for embedded content: [wpt#40669](https://github.com/web-platform-tests/wpt/pull/40669)
+- Lint for `/>` on non-void elements: [wpt#40473](https://github.com/web-platform-tests/wpt/pull/40473), [#40498](https://github.com/web-platform-tests/wpt/pull/40498), [#42076](https://github.com/web-platform-tests/wpt/issues/42076)
+- `<input pattern>` `v` flag: [wpt#40343](https://github.com/web-platform-tests/wpt/pull/40343), [mdn/content#27346](https://github.com/mdn/content/issues/27346), [#27347](https://github.com/mdn/content/issues/27347)
+- Reviews:
+  - Anne's [whatwg/html#9124](https://github.com/whatwg/html/pull/9124), [#9665](https://github.com/whatwg/html/pull/9665), [#9689](https://github.com/whatwg/html/pull/9689)
+  - `customElements.getName()`: [#9195](https://github.com/whatwg/html/pull/9195)
+  - `:modal`: [#9395](https://github.com/whatwg/html/pull/9395)
+  - Top layer: [#9093](https://github.com/whatwg/html/pull/9093)
+  - Parser: [#9809](https://github.com/whatwg/html/pull/9809), [#9810](https://github.com/whatwg/html/pull/9810), [#9642](https://github.com/whatwg/html/pull/9642), [html5lib/html5lib-tests#163](https://github.com/html5lib/html5lib-tests/pull/163)
+
+### CSS and editing
+
+- `appearance` values: [w3c/csswg-drafts#8877](https://github.com/w3c/csswg-drafts/pull/8877), [wpt#40233](https://github.com/web-platform-tests/wpt/pull/40233)
+- CSS issues:
+  - `scrollend`: [w3c/csswg-drafts#8396](https://github.com/w3c/csswg-drafts/issues/8396), [#8397](https://github.com/w3c/csswg-drafts/issues/8397)
+  - UA stylesheets: [#8959](https://github.com/w3c/csswg-drafts/issues/8959)
+  - `supports()` in media queries: [#9361](https://github.com/w3c/csswg-drafts/issues/9361), [#9375](https://github.com/w3c/csswg-drafts/issues/9375)
+- Editing: [w3c/editing#419](https://github.com/w3c/editing/issues/419), [#432](https://github.com/w3c/editing/issues/432) (execCommand in charter scope), reviewed [#434](https://github.com/w3c/editing/pull/434)
+
+### Privacy and security feedback
+
+- [w3c/IntersectionObserver#508](https://github.com/w3c/IntersectionObserver/issues/508)
+- Scroll to text fragment: [WICG/scroll-to-text-fragment#226](https://github.com/WICG/scroll-to-text-fragment/issues/226), [#227](https://github.com/WICG/scroll-to-text-fragment/issues/227), [#234](https://github.com/WICG/scroll-to-text-fragment/issues/234), [eligrey/fragment-directives#1](https://github.com/eligrey/fragment-directives/issues/1)
+- [annevk/orb#41](https://github.com/annevk/orb/issues/41), [WICG/sanitizer-api#195](https://github.com/WICG/sanitizer-api/issues/195)
+- Other feedback: DOM Localization ([nordzilla/dom-l10n-draft-spec#3](https://github.com/nordzilla/dom-l10n-draft-spec/issues/3)), HTML-AAM ([w3c/html-aam#486](https://github.com/w3c/html-aam/issues/486))
+
+### MDN, web compat, and data
+
+- Firefox use counter data in HTTP Archive: [HTTPArchive/httparchive.org#971](https://github.com/HTTPArchive/httparchive.org/issues/971)
+- Web compat reports: [webcompat/web-bugs#118917](https://github.com/webcompat/web-bugs/issues/118917), [#123838](https://github.com/webcompat/web-bugs/issues/123838)
+- MDN:
+  - [mdn/mdn#392](https://github.com/mdn/mdn/issues/392), [mdn/content#25544](https://github.com/mdn/content/issues/25544), [#26745](https://github.com/mdn/content/issues/26745), [#31015](https://github.com/mdn/content/pull/31015)
+  - Reviewed the web compat survey: [mdn/yari#8097](https://github.com/mdn/yari/pull/8097)
+
 ## Caveats
 
 - "Reviewed" includes a few older PRs that were only updated in that year.
