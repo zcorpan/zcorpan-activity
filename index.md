@@ -199,6 +199,89 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
 - UI Events build: [w3c/uievents#408](https://github.com/w3c/uievents/pull/408), [#410](https://github.com/w3c/uievents/pull/410), [#407](https://github.com/w3c/uievents/issues/407), [#409](https://github.com/w3c/uievents/issues/409)
 - Reviewed building HTML with Bikeshed: [whatwg/html-build#296](https://github.com/whatwg/html-build/pull/296)
 
+## 2024
+
+### Standards positions dashboard
+
+- Moved the repo to YAML and GitHub issue data: [mozilla/standards-positions#1063](https://github.com/mozilla/standards-positions/pull/1063)
+- Split the old combined entries into one issue per position: [#1087](https://github.com/mozilla/standards-positions/issues/1087), then [#1088](https://github.com/mozilla/standards-positions/issues/1088)–[#1098](https://github.com/mozilla/standards-positions/issues/1098)
+- Follow-ups:
+  - Data: [#1099](https://github.com/mozilla/standards-positions/pull/1099), [#1130](https://github.com/mozilla/standards-positions/pull/1130), [#1140](https://github.com/mozilla/standards-positions/pull/1140), [#1147](https://github.com/mozilla/standards-positions/pull/1147)
+  - Deploy workflow: [#1123](https://github.com/mozilla/standards-positions/pull/1123), [#1126](https://github.com/mozilla/standards-positions/pull/1126), [#1131](https://github.com/mozilla/standards-positions/pull/1131), [#1132](https://github.com/mozilla/standards-positions/pull/1132), [#1137](https://github.com/mozilla/standards-positions/pull/1137)
+  - UI and accessibility: [#1124](https://github.com/mozilla/standards-positions/pull/1124), [#1127](https://github.com/mozilla/standards-positions/pull/1127), [#1134](https://github.com/mozilla/standards-positions/pull/1134), [#1135](https://github.com/mozilla/standards-positions/pull/1135), [#1136](https://github.com/mozilla/standards-positions/pull/1136), [#1145](https://github.com/mozilla/standards-positions/pull/1145), [#1152](https://github.com/mozilla/standards-positions/pull/1152)
+  - Issue template: [#1146](https://github.com/mozilla/standards-positions/pull/1146), [#1138](https://github.com/mozilla/standards-positions/issues/1138)
+  - Issues: [#1116](https://github.com/mozilla/standards-positions/issues/1116), [#1117](https://github.com/mozilla/standards-positions/issues/1117), [#1125](https://github.com/mozilla/standards-positions/issues/1125)
+
+### Mozilla standards positions and explainers
+
+- Positions:
+  - Scroll-driven animations (positive): [mozilla/standards-positions#978](https://github.com/mozilla/standards-positions/pull/978), with [w3c/csswg-drafts#9883](https://github.com/w3c/csswg-drafts/pull/9883) and [Fyrd/caniuse#6956](https://github.com/Fyrd/caniuse/pull/6956)
+  - NEL: [#1141](https://github.com/mozilla/standards-positions/pull/1141)
+  - Filed [#975](https://github.com/mozilla/standards-positions/issues/975), [#1006](https://github.com/mozilla/standards-positions/issues/1006), [#1142](https://github.com/mozilla/standards-positions/issues/1142)
+- Commented on about 80 position threads, e.g. relaxed `<select>` parsing ([#1086](https://github.com/mozilla/standards-positions/issues/1086)), document render-blocking ([#875](https://github.com/mozilla/standards-positions/issues/875)), Trusted Types ([#20](https://github.com/mozilla/standards-positions/issues/20))
+- Reviewed position PRs such as [#981](https://github.com/mozilla/standards-positions/pull/981), [#1025](https://github.com/mozilla/standards-positions/pull/1025), [#1030](https://github.com/mozilla/standards-positions/pull/1030), [#1047](https://github.com/mozilla/standards-positions/pull/1047), [#1104](https://github.com/mozilla/standards-positions/pull/1104)
+- Explainers:
+  - [mozilla/explainers#4](https://github.com/mozilla/explainers/pull/4), [#5](https://github.com/mozilla/explainers/pull/5); reviewed Tantek's [#26](https://github.com/mozilla/explainers/pull/26)–[#29](https://github.com/mozilla/explainers/pull/29)
+  - eyedropper-input explainer: [mozilla/explainers#19](https://github.com/mozilla/explainers/pull/19), [#20](https://github.com/mozilla/explainers/pull/20), following [WICG/eyedropper-api#34](https://github.com/WICG/eyedropper-api/issues/34), [#35](https://github.com/WICG/eyedropper-api/issues/35)
+
+### `textInput` event
+
+- Spec: [whatwg/dom#1254](https://github.com/whatwg/dom/pull/1254), [w3c/uievents#366](https://github.com/w3c/uievents/issues/366), [#367](https://github.com/w3c/uievents/issues/367), [#368](https://github.com/w3c/uievents/issues/368)
+- Tests: [wpt#44467](https://github.com/web-platform-tests/wpt/pull/44467), [#44472](https://github.com/web-platform-tests/wpt/pull/44472), [#44744](https://github.com/web-platform-tests/wpt/pull/44744)
+- Web compat for Firefox 126: [niksmr/vue-masked-input#71](https://github.com/niksmr/vue-masked-input/pull/71), [mdn/content#32179](https://github.com/mdn/content/pull/32179)
+
+### Lazy-loading iframes
+
+- Navigation cancels iframe lazy-loading: [whatwg/html#10226](https://github.com/whatwg/html/pull/10226), [#10213](https://github.com/whatwg/html/issues/10213), [wpt#45650](https://github.com/web-platform-tests/wpt/pull/45650)
+- Web compat in lazysizes: [aFarkas/lazysizes#994](https://github.com/aFarkas/lazysizes/issues/994), [#995](https://github.com/aFarkas/lazysizes/pull/995)
+
+### HTML and DOM
+
+- Defined "connected" for all nodes: [whatwg/dom#1260](https://github.com/whatwg/dom/pull/1260) ([#1259](https://github.com/whatwg/dom/issues/1259)); removal order: [whatwg/dom#1322](https://github.com/whatwg/dom/issues/1322)
+- Tests:
+  - `<svg><script/>`: [wpt#44227](https://github.com/web-platform-tests/wpt/pull/44227)
+  - `window.open()` consuming user activation: [wpt#49138](https://github.com/web-platform-tests/wpt/pull/49138), reviewed [whatwg/html#10547](https://github.com/whatwg/html/pull/10547)
+  - `reportValidity()` focus: [wpt#47934](https://github.com/web-platform-tests/wpt/pull/47934), [whatwg/html#10600](https://github.com/whatwg/html/issues/10600)
+- Issues: [whatwg/html#10068](https://github.com/whatwg/html/issues/10068), [#10090](https://github.com/whatwg/html/issues/10090), [#10134](https://github.com/whatwg/html/issues/10134), [#10301](https://github.com/whatwg/html/issues/10301), [#10664](https://github.com/whatwg/html/issues/10664), [#10740](https://github.com/whatwg/html/issues/10740)
+- Editorial: [whatwg/html#10250](https://github.com/whatwg/html/pull/10250)
+- Reviews:
+  - Trusted Types upstreaming by Luke Warlow: [whatwg/html#10199](https://github.com/whatwg/html/pull/10199), [#10286](https://github.com/whatwg/html/pull/10286), [#10328](https://github.com/whatwg/html/pull/10328), [#10348](https://github.com/whatwg/html/pull/10348)
+  - Close watchers: [#10168](https://github.com/whatwg/html/pull/10168), [#10291](https://github.com/whatwg/html/pull/10291)
+  - `:open`: [#10126](https://github.com/whatwg/html/pull/10126)
+  - `field-sizing`: [#9903](https://github.com/whatwg/html/pull/9903), [wpt#44346](https://github.com/web-platform-tests/wpt/pull/44346)
+  - Sanitizer: [WICG/sanitizer-api#208](https://github.com/WICG/sanitizer-api/pull/208), [wpt#48561](https://github.com/web-platform-tests/wpt/pull/48561)
+  - `caretPositionFromPoint()`: [w3c/csswg-drafts#10200](https://github.com/w3c/csswg-drafts/pull/10200), [#10307](https://github.com/w3c/csswg-drafts/pull/10307)
+- Quirks: percentage height for flex and grid items: [whatwg/quirks#76](https://github.com/whatwg/quirks/pull/76)
+- SVG parsing research tool: [mozfreddyb/svg-pcdata#1](https://github.com/mozfreddyb/svg-pcdata/pull/1)–[#3](https://github.com/mozfreddyb/svg-pcdata/pull/3)
+
+### Feedback on incubations
+
+- [WICG/nav-speculation#307](https://github.com/WICG/nav-speculation/issues/307), [WICG/PEPC#18](https://github.com/WICG/PEPC/issues/18), [w3c/aria#2320](https://github.com/w3c/aria/issues/2320)
+- Request initiator: [w3c/ServiceWorker#1718](https://github.com/w3c/ServiceWorker/issues/1718), [w3c/webappsec-csp#660](https://github.com/w3c/webappsec-csp/issues/660)
+
+### WHATWG governance
+
+- Alternate Steering Group representative: [whatwg/sg#235](https://github.com/whatwg/sg/pull/235)
+- WHATNOT meeting: [whatwg/meta#319](https://github.com/whatwg/meta/pull/319), reviewed [whatwg/sg#224](https://github.com/whatwg/sg/pull/224)
+- [whatwg/participant-data#74](https://github.com/whatwg/participant-data/pull/74), [whatwg/whatwg.org#444](https://github.com/whatwg/whatwg.org/pull/444)
+- Stepped back from Open UI: [openui/open-ui#1053](https://github.com/openui/open-ui/pull/1053)
+
+### Interop and wpt
+
+- Ran the interop-accessibility meetings (e.g. [#94](https://github.com/web-platform-tests/interop-accessibility/issues/94), [#154](https://github.com/web-platform-tests/interop-accessibility/issues/154))
+  - Interop 2025 accessibility investigation: [#148](https://github.com/web-platform-tests/interop-accessibility/issues/148), [web-platform-tests/interop#866](https://github.com/web-platform-tests/interop/issues/866)
+  - `datalist` accessibility: [#95](https://github.com/web-platform-tests/interop-accessibility/issues/95)
+- Interop docs: [web-platform-tests/interop#629](https://github.com/web-platform-tests/interop/pull/629), [#655](https://github.com/web-platform-tests/interop/pull/655), [#699](https://github.com/web-platform-tests/interop/pull/699); reviewed [#622](https://github.com/web-platform-tests/interop/pull/622)
+- testharness.js: [wpt#45708](https://github.com/web-platform-tests/wpt/pull/45708), [#46566](https://github.com/web-platform-tests/wpt/pull/46566)
+- Disabled-tests report: [CanadaHonk/wpt-disabled-tests-report#1](https://github.com/CanadaHonk/wpt-disabled-tests-report/pull/1), [#2](https://github.com/CanadaHonk/wpt-disabled-tests-report/pull/2)
+
+### MDN and Mozilla
+
+- MDN content: [mdn/content#35241](https://github.com/mdn/content/issues/35241), [#35837](https://github.com/mdn/content/issues/35837)
+- MDN AI Help feedback: [mdn/ai-feedback#37](https://github.com/mdn/ai-feedback/issues/37), [#99](https://github.com/mdn/ai-feedback/issues/99)
+- Use counters link: [mozilla/telemetry-dashboard#677](https://github.com/mozilla/telemetry-dashboard/pull/677)
+- Firefox Translations feedback: [mozilla/translations#876](https://github.com/mozilla/translations/issues/876)
+
 ## Caveats
 
 - "Reviewed" includes a few older PRs that were only updated in that year.
