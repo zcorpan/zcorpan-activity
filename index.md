@@ -17,11 +17,12 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
   - Reviewed [w3c/trusted-types#606](https://github.com/w3c/trusted-types/pull/606) and [whatwg/html#12583](https://github.com/whatwg/html/pull/12583)
 - Reviewed streaming, positional parsing, and sanitize-while-parsing:
   - [whatwg/html#12758](https://github.com/whatwg/html/pull/12758), [#12753](https://github.com/whatwg/html/pull/12753), [#12756](https://github.com/whatwg/html/pull/12756), [#12848](https://github.com/whatwg/html/pull/12848)
-  - Related wpt PRs, e.g. [wpt#62492](https://github.com/web-platform-tests/wpt/pull/62492), [wpt#61748](https://github.com/web-platform-tests/wpt/pull/61748); fixed [wpt#62084](https://github.com/web-platform-tests/wpt/pull/62084)
+  - Related wpt PRs, e.g. [wpt#62492](https://github.com/web-platform-tests/wpt/pull/62492), [wpt#61748](https://github.com/web-platform-tests/wpt/pull/61748), [wpt#61156](https://github.com/web-platform-tests/wpt/pull/61156); fixed [wpt#62084](https://github.com/web-platform-tests/wpt/pull/62084)
   - Standards positions: [#1443](https://github.com/mozilla/standards-positions/issues/1443), [#1370](https://github.com/mozilla/standards-positions/issues/1370)
 - Parser:
   - html5lib-tests import in [wpt#60787](https://github.com/web-platform-tests/wpt/pull/60787) and `.dat` format docs in [wpt#60827](https://github.com/web-platform-tests/wpt/pull/60827)
-  - Reviewed the adoption agency clarification [whatwg/html#12599](https://github.com/whatwg/html/pull/12599)
+  - Reviewed the adoption agency clarification [whatwg/html#12599](https://github.com/whatwg/html/pull/12599) and [whatwg/html#12708](https://github.com/whatwg/html/pull/12708)
+  - Reviewed Anne's parser tests: [wpt#62593](https://github.com/web-platform-tests/wpt/pull/62593), [#62599](https://github.com/web-platform-tests/wpt/pull/62599), [#62346](https://github.com/web-platform-tests/wpt/pull/62346), [#61396](https://github.com/web-platform-tests/wpt/pull/61396)
 
 ### Media elements
 
@@ -30,6 +31,7 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
   - Follow-up fixes: [whatwg/html#12970](https://github.com/whatwg/html/pull/12970), [#12972](https://github.com/whatwg/html/pull/12972)
   - Issues: [#12854](https://github.com/whatwg/html/issues/12854), [#12971](https://github.com/whatwg/html/issues/12971), [#12973](https://github.com/whatwg/html/issues/12973), [#12974](https://github.com/whatwg/html/issues/12974), [#12975](https://github.com/whatwg/html/issues/12975)
   - Tests: [wpt#62828](https://github.com/web-platform-tests/wpt/pull/62828), [#62832](https://github.com/web-platform-tests/wpt/pull/62832), [#62835](https://github.com/web-platform-tests/wpt/pull/62835), [#62859](https://github.com/web-platform-tests/wpt/pull/62859)
+  - Reviewed Shannon Booth's lazy-loading intersection observation fix: [whatwg/html#12391](https://github.com/whatwg/html/pull/12391), [wpt#59333](https://github.com/web-platform-tests/wpt/pull/59333)
 - Resource selection and `<source>` moves:
   - [whatwg/html#12511](https://github.com/whatwg/html/pull/12511), [wpt#60466](https://github.com/web-platform-tests/wpt/pull/60466), [wpt#62180](https://github.com/web-platform-tests/wpt/pull/62180)
   - Issues: [#12835](https://github.com/whatwg/html/issues/12835), [#12836](https://github.com/whatwg/html/issues/12836), [#12986](https://github.com/whatwg/html/issues/12986)
@@ -39,12 +41,13 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
 ### Navigation and history
 
 - Rate limiting for navigation, traversal, and `pushState()`: [whatwg/html#12492](https://github.com/whatwg/html/pull/12492), [wpt#60210](https://github.com/web-platform-tests/wpt/pull/60210), [mdn/content#44477](https://github.com/mdn/content/issues/44477)
-- `javascript:` URL `targetSnapshotParams`: [whatwg/html#12303](https://github.com/whatwg/html/pull/12303), [#12572](https://github.com/whatwg/html/pull/12572)
-- `ancestorOrigins`: [whatwg/html#12071](https://github.com/whatwg/html/pull/12071)
+- `javascript:` URL `targetSnapshotParams`: [whatwg/html#12303](https://github.com/whatwg/html/pull/12303), [#12572](https://github.com/whatwg/html/pull/12572); reviewed Anne's follow-ups in [#12978](https://github.com/whatwg/html/pull/12978)
+- `ancestorOrigins`: [whatwg/html#12071](https://github.com/whatwg/html/pull/12071); reviewed [#12630](https://github.com/whatwg/html/pull/12630)
 - Meta refresh fragment navigations: [whatwg/html#12325](https://github.com/whatwg/html/issues/12325)
 - Navigation API:
   - Tests: [wpt#59845](https://github.com/web-platform-tests/wpt/pull/59845), [wpt#62425](https://github.com/web-platform-tests/wpt/pull/62425)
-  - Reviewed PRs from Mozilla's farre/theIDinside (e.g. [whatwg/html#12256](https://github.com/whatwg/html/pull/12256)) and Shannon Booth ([#12929](https://github.com/whatwg/html/pull/12929), [#12933](https://github.com/whatwg/html/pull/12933))
+  - Reviewed PRs from Mozilla's farre/theIDinside (e.g. [whatwg/html#12256](https://github.com/whatwg/html/pull/12256)), Shannon Booth ([#12929](https://github.com/whatwg/html/pull/12929), [#12933](https://github.com/whatwg/html/pull/12933)), and Noam ([#12838](https://github.com/whatwg/html/pull/12838))
+- Reviewed Shannon Booth's same-URL browser UI navigations ([whatwg/html#12824](https://github.com/whatwg/html/pull/12824), [wpt#62160](https://github.com/web-platform-tests/wpt/pull/62160)) and `window.close()` sandboxing ([whatwg/html#12960](https://github.com/whatwg/html/pull/12960))
 
 ### Fullscreen keyboard lock
 
@@ -57,13 +60,20 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
 ### Other HTML fixes and reviews
 
 - Focus events at a `Window`: [whatwg/html#12875](https://github.com/whatwg/html/pull/12875), [wpt#62344](https://github.com/web-platform-tests/wpt/pull/62344)
-- CORS check in the `<link>` stylesheet MIME type quirk: [whatwg/html#12468](https://github.com/whatwg/html/pull/12468), [wpt#62516](https://github.com/web-platform-tests/wpt/pull/62516), [w3c/csswg-drafts#14480](https://github.com/w3c/csswg-drafts/issues/14480)
+- CORS check in the `<link>` stylesheet MIME type quirk: [whatwg/html#12468](https://github.com/whatwg/html/pull/12468), [wpt#62516](https://github.com/web-platform-tests/wpt/pull/62516), [w3c/csswg-drafts#14480](https://github.com/w3c/csswg-drafts/issues/14480), [w3c/csswg-drafts#14540](https://github.com/w3c/csswg-drafts/pull/14540)
+- Allow `style` in `body`: [whatwg/html#13007](https://github.com/whatwg/html/pull/13007), [validator/validator#2143](https://github.com/validator/validator/issues/2143), reviewed [validator/validator#2146](https://github.com/validator/validator/pull/2146)
+- Percentage height quirk at flex and grid items: [wpt#63118](https://github.com/web-platform-tests/wpt/pull/63118)
+- MathML `<a>`: [w3c/mathml-core#340](https://github.com/w3c/mathml-core/issues/340), reviewed the MathML idlharness tests [wpt#59846](https://github.com/web-platform-tests/wpt/pull/59846)
+- Window Management fingerprinting: [w3c/window-management#166](https://github.com/w3c/window-management/issues/166)
 - Body margin attributes: [wpt#58682](https://github.com/web-platform-tests/wpt/pull/58682), [mdn/content#43534](https://github.com/mdn/content/pull/43534)
 - Style load event: [wpt#57346](https://github.com/web-platform-tests/wpt/pull/57346)
 - Picture-in-Picture `resize` event: [w3c/picture-in-picture#243](https://github.com/w3c/picture-in-picture/pull/243)
 - WebVTT cue settings syntax: [w3c/webvtt#542](https://github.com/w3c/webvtt/pull/542)
 - Issues: [whatwg/html#12101](https://github.com/whatwg/html/issues/12101), [#12178](https://github.com/whatwg/html/issues/12178), [#12571](https://github.com/whatwg/html/issues/12571), [#12847](https://github.com/whatwg/html/issues/12847), [#12982](https://github.com/whatwg/html/issues/12982)
 - Many reviews, notably Anne's PRs, Joey Arhar's customizable `<select>` work, and the XSLT deprecation ([whatwg/html#12805](https://github.com/whatwg/html/pull/12805), [whatwg/dom#1499](https://github.com/whatwg/dom/pull/1499))
+  - Anne: [whatwg/html#12870](https://github.com/whatwg/html/pull/12870), [#12823](https://github.com/whatwg/html/pull/12823), [#12944](https://github.com/whatwg/html/pull/12944), [#12232](https://github.com/whatwg/html/pull/12232), [#12936](https://github.com/whatwg/html/pull/12936), [whatwg/dom#1496](https://github.com/whatwg/dom/pull/1496), [whatwg/fetch#1922](https://github.com/whatwg/fetch/pull/1922)
+  - Scott Haseley's fully active check for event listeners: [whatwg/dom#1085](https://github.com/whatwg/dom/pull/1085), tests in [wpt#62719](https://github.com/web-platform-tests/wpt/pull/62719)
+  - Others: frame connection steps ([whatwg/html#12925](https://github.com/whatwg/html/pull/12925)), module map integrity ([#12922](https://github.com/whatwg/html/pull/12922)), popovers and dialogs ([#12764](https://github.com/whatwg/html/pull/12764)), form control rendering ([#12781](https://github.com/whatwg/html/pull/12781)), system colors for links ([#12761](https://github.com/whatwg/html/pull/12761))
 - XSLT polyfill fixes: [mfreed7/xslt_polyfill#37](https://github.com/mfreed7/xslt_polyfill/pull/37), [mfreed7/xslt_extension#6](https://github.com/mfreed7/xslt_extension/pull/6)
 
 ### Spec infrastructure
@@ -72,8 +82,9 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
   - [whatwg/wattsi#169](https://github.com/whatwg/wattsi/issues/169), [#170](https://github.com/whatwg/wattsi/pull/170), [#171](https://github.com/whatwg/wattsi/pull/171)
   - [whatwg/html-build#319](https://github.com/whatwg/html-build/pull/319), [whatwg/whatwg.org#506](https://github.com/whatwg/whatwg.org/pull/506), [whatwg/html#12864](https://github.com/whatwg/html/pull/12864)
   - [speced/bikeshed#3319](https://github.com/speced/bikeshed/issues/3319), [speced/mdn-spec-links#853](https://github.com/speced/mdn-spec-links/issues/853)
-- Rendering and performance: [whatwg/html#12867](https://github.com/whatwg/html/pull/12867), [whatwg/wattsi#172](https://github.com/whatwg/wattsi/pull/172), [whatwg/html#12924](https://github.com/whatwg/html/pull/12924), [whatwg/whatwg.org#508](https://github.com/whatwg/whatwg.org/pull/508)
-- specfmt fixes: [#31](https://github.com/domfarolino/specfmt/pull/31), [#33](https://github.com/domfarolino/specfmt/pull/33), [#34](https://github.com/domfarolino/specfmt/pull/34)
+- Rendering and performance: [whatwg/html#12867](https://github.com/whatwg/html/pull/12867), [whatwg/wattsi#172](https://github.com/whatwg/wattsi/pull/172), [#173](https://github.com/whatwg/wattsi/pull/173), [whatwg/html#12924](https://github.com/whatwg/html/pull/12924), [whatwg/whatwg.org#505](https://github.com/whatwg/whatwg.org/pull/505), [#508](https://github.com/whatwg/whatwg.org/pull/508), [#512](https://github.com/whatwg/whatwg.org/pull/512)
+- Cleanups: [whatwg/html#12876](https://github.com/whatwg/html/pull/12876) (line-wrapping exceptions), [#12904](https://github.com/whatwg/html/pull/12904), [#12905](https://github.com/whatwg/html/pull/12905), [#12865](https://github.com/whatwg/html/pull/12865), [speced/bikeshed#3325](https://github.com/speced/bikeshed/issues/3325)
+- specfmt fixes: [#32](https://github.com/domfarolino/specfmt/issues/32), [#31](https://github.com/domfarolino/specfmt/pull/31), [#33](https://github.com/domfarolino/specfmt/pull/33), [#34](https://github.com/domfarolino/specfmt/pull/34)
 - Diff UI: [w3c/htmldiff-ui#26](https://github.com/w3c/htmldiff-ui/pull/26), [w3c/htmldiff-nav#3](https://github.com/w3c/htmldiff-nav/pull/3)
 - Editor tooling: [whatwg-editor-dashboard](https://github.com/zcorpan/whatwg-editor-dashboard/pull/2), [whatwg-contrib-report](https://github.com/zcorpan/whatwg-contrib-report)
 
@@ -91,6 +102,7 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
 - MDN gaps: [mdn/content#42970](https://github.com/mdn/content/issues/42970), [#43730](https://github.com/mdn/content/issues/43730), [w3c/editing#530](https://github.com/w3c/editing/issues/530)
 - Reviewed the h1 UA styles posts: [mdn/blog#385](https://github.com/mdn/blog/pull/385)
 - AI contribution policy: [whatwg/sg#262](https://github.com/whatwg/sg/issues/262), [whatwg/meta#418](https://github.com/whatwg/meta/issues/418), reviewed [whatwg/sg#285](https://github.com/whatwg/sg/pull/285)
+- Reviewed the implementer interest change [whatwg/sg#279](https://github.com/whatwg/sg/pull/279) and August Review Drafts ([whatwg/url#928](https://github.com/whatwg/url/pull/928), [whatwg/streams#1377](https://github.com/whatwg/streams/pull/1377)); verified participants in whatwg/participant-data
 - AI spec-research tooling: [jnjaeschke/webspec-index#27](https://github.com/jnjaeschke/webspec-index/pull/27), [noamr/web-archeologist#4](https://github.com/noamr/web-archeologist/pull/4)
 
 ## 2025
