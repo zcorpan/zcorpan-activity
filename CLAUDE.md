@@ -56,4 +56,6 @@ The search API caps results at 1000 per query. For long periods, split the range
 
 ## Format
 
-Markdown with a `#` title, one `##` per year (newest first), one `###` per theme, and nested bullet lists. The `## Caveats` section stays last. Mark the current year as partial, e.g. `## 2026 (through September)`.
+Markdown with a `#` title, one `##` per year (newest first), and nested bullet lists. The `## Caveats` section stays last. Mark the current year as partial, e.g. `## 2026 (through September)`.
+
+From 2026 on, split each year into `### H2 (July–December)` before `### H1 (January–June)`, with one `####` per theme inside each half; mark a partial half the same way, e.g. `### H2 (July–November 9)`. Place an item in the half when zcorpan worked on it (creation date for zcorpan's own PRs/issues, review or comment dates otherwise); a topic spanning both halves gets a theme in each. Years before 2026 keep one `###` per theme.
