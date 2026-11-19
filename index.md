@@ -40,7 +40,7 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
 - `<poster>` element: reviewed Scott Jehl's [whatwg/html#12585](https://github.com/whatwg/html/pull/12585), commented on [mozilla/standards-positions#1426](https://github.com/mozilla/standards-positions/issues/1426)
 - WebVTT:
   - Bikeshed link errors: [w3c/webvtt#550](https://github.com/w3c/webvtt/pull/550)
-  - Reviewed header metadata [w3c/webvtt#548](https://github.com/w3c/webvtt/pull/548) and WebVTT tests: [wpt#62990](https://github.com/web-platform-tests/wpt/pull/62990), [#63189](https://github.com/web-platform-tests/wpt/pull/63189), [#63533](https://github.com/web-platform-tests/wpt/pull/63533)
+  - Reviewed WebVTT tests: [wpt#62990](https://github.com/web-platform-tests/wpt/pull/62990), [#63189](https://github.com/web-platform-tests/wpt/pull/63189), [#63533](https://github.com/web-platform-tests/wpt/pull/63533)
 
 #### Fetch and opaque response blocking
 
@@ -194,7 +194,7 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
 - Body margin attributes: [wpt#58682](https://github.com/web-platform-tests/wpt/pull/58682), [mdn/content#43534](https://github.com/mdn/content/pull/43534)
 - Style load event: [wpt#57346](https://github.com/web-platform-tests/wpt/pull/57346)
 - Picture-in-Picture `resize` event: [w3c/picture-in-picture#243](https://github.com/w3c/picture-in-picture/pull/243)
-- WebVTT cue settings syntax: [w3c/webvtt#542](https://github.com/w3c/webvtt/pull/542)
+- WebVTT cue settings syntax: [w3c/webvtt#542](https://github.com/w3c/webvtt/pull/542); reviewed header metadata [#548](https://github.com/w3c/webvtt/pull/548)
 - Issues: [whatwg/html#12101](https://github.com/whatwg/html/issues/12101), [#12178](https://github.com/whatwg/html/issues/12178), [#12571](https://github.com/whatwg/html/issues/12571)
 - Many reviews, notably Anne's PRs (e.g. [whatwg/html#12531](https://github.com/whatwg/html/pull/12531), [#12610](https://github.com/whatwg/html/pull/12610)) and Joey Arhar's customizable `<select>` work (e.g. [#12205](https://github.com/whatwg/html/pull/12205), [#12069](https://github.com/whatwg/html/pull/12069))
 
