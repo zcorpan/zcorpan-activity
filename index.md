@@ -2,7 +2,7 @@
 
 Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Mozilla on GitHub, by year. Personal projects are omitted.
 
-## 2026 (through November 9)
+## 2026 (through November 18)
 
 ### H2
 
@@ -18,6 +18,7 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
   - Async external scripts in fragments: [whatwg/html#13079](https://github.com/whatwg/html/issues/13079), reviewed Noam's fix [whatwg/html#13080](https://github.com/whatwg/html/pull/13080) and [wpt#63708](https://github.com/web-platform-tests/wpt/pull/63708)
   - Issues: [whatwg/html#13205](https://github.com/whatwg/html/issues/13205), `<template for>` ([#13075](https://github.com/whatwg/html/issues/13075), [#13076](https://github.com/whatwg/html/issues/13076))
   - Standards position: [mozilla/standards-positions#1443](https://github.com/mozilla/standards-positions/issues/1443)
+  - Tests for `is` attributes: [wpt#65381](https://github.com/web-platform-tests/wpt/pull/65381)
   - Docs: [mdn/content#46132](https://github.com/mdn/content/issues/46132), [mdn/browser-compat-data#30927](https://github.com/mdn/browser-compat-data/pull/30927)
 - Parser:
   - Reviewed [whatwg/html#12708](https://github.com/whatwg/html/pull/12708)
@@ -51,8 +52,8 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
 
 #### Images
 
-- `sizes` determines the natural width: [whatwg/html#13046](https://github.com/whatwg/html/pull/13046), [wpt#63395](https://github.com/web-platform-tests/wpt/pull/63395)
-- Issues: [whatwg/html#13048](https://github.com/whatwg/html/issues/13048), [#13049](https://github.com/whatwg/html/issues/13049), [#13074](https://github.com/whatwg/html/issues/13074)
+- `sizes` determines the natural width: [whatwg/html#13046](https://github.com/whatwg/html/pull/13046), [wpt#63395](https://github.com/web-platform-tests/wpt/pull/63395), compat [research](https://github.com/zcorpan/sizes-compat-3981)
+- Issues: [whatwg/html#13048](https://github.com/whatwg/html/issues/13048), [#13049](https://github.com/whatwg/html/issues/13049), [#13074](https://github.com/whatwg/html/issues/13074), [#13275](https://github.com/whatwg/html/issues/13275)
 - Reviewed Noam's normative responsive image source selection ([whatwg/html#13183](https://github.com/whatwg/html/pull/13183), [wpt#64665](https://github.com/web-platform-tests/wpt/pull/64665)) and `sizes=auto` when unrendered ([whatwg/html#13004](https://github.com/whatwg/html/pull/13004), [wpt#63095](https://github.com/web-platform-tests/wpt/pull/63095))
 - Reviewed Tim van der Lippe's synchronous `img` dimensions: [whatwg/html#13057](https://github.com/whatwg/html/pull/13057), [#13033](https://github.com/whatwg/html/pull/13033), [wpt#63308](https://github.com/web-platform-tests/wpt/pull/63308)
 
@@ -69,9 +70,9 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
 - `ancestorOrigins`: [whatwg/html#13066](https://github.com/whatwg/html/issues/13066), [#13067](https://github.com/whatwg/html/pull/13067), [wpt#63761](https://github.com/web-platform-tests/wpt/pull/63761); reviewed [whatwg/html#12630](https://github.com/whatwg/html/pull/12630)
 - Removing a navigated iframe removes its history steps: [wpt#63955](https://github.com/web-platform-tests/wpt/pull/63955)
 - Navigation API:
-  - Tests: [wpt#62425](https://github.com/web-platform-tests/wpt/pull/62425), [wpt#64000](https://github.com/web-platform-tests/wpt/pull/64000)
+  - Tests: [wpt#62425](https://github.com/web-platform-tests/wpt/pull/62425), [wpt#64000](https://github.com/web-platform-tests/wpt/pull/64000), [wpt#65366](https://github.com/web-platform-tests/wpt/pull/65366)
   - [QA run](https://github.com/zcorpan/navigation-api-qa) that found [whatwg/html#13172](https://github.com/whatwg/html/issues/13172) and [#13173](https://github.com/whatwg/html/issues/13173)
-  - Reviewed PRs from Mozilla's farre/theIDinside ([whatwg/html#13024](https://github.com/whatwg/html/pull/13024), [wpt#63208](https://github.com/web-platform-tests/wpt/pull/63208)), Shannon Booth ([whatwg/html#12929](https://github.com/whatwg/html/pull/12929), [#12933](https://github.com/whatwg/html/pull/12933)), and Noam ([#12838](https://github.com/whatwg/html/pull/12838))
+  - Reviewed PRs from Mozilla's farre/theIDinside ([whatwg/html#13024](https://github.com/whatwg/html/pull/13024), [wpt#63208](https://github.com/web-platform-tests/wpt/pull/63208), [wpt#64856](https://github.com/web-platform-tests/wpt/pull/64856), [wpt-metadata#9708](https://github.com/web-platform-tests/wpt-metadata/pull/9708)), Shannon Booth ([whatwg/html#12929](https://github.com/whatwg/html/pull/12929), [#12933](https://github.com/whatwg/html/pull/12933)), and Noam ([#12838](https://github.com/whatwg/html/pull/12838))
 - Reviewed Shannon Booth's same-URL browser UI navigations ([whatwg/html#12824](https://github.com/whatwg/html/pull/12824), [wpt#62160](https://github.com/web-platform-tests/wpt/pull/62160)), `window.close()` sandboxing ([whatwg/html#12960](https://github.com/whatwg/html/pull/12960)), navigated child navigable's `Window` group ([#13034](https://github.com/whatwg/html/pull/13034)), and CORP on navigation responses ([#13087](https://github.com/whatwg/html/pull/13087), [wpt#64047](https://github.com/web-platform-tests/wpt/pull/64047))
 - Reviewed Domenic's sticky activation carry-over: [whatwg/html#11454](https://github.com/whatwg/html/pull/11454)
 
@@ -94,6 +95,7 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
   - Document interfaces ([whatwg/html#4792](https://github.com/whatwg/html/issues/4792)): [research](https://github.com/zcorpan/htmldocument-compat-4792)
   - Focus on disabled controls ([whatwg/html#13170](https://github.com/whatwg/html/issues/13170)): [research](https://github.com/zcorpan/disabled-focus-compat)
   - Document named properties shadowing ([whatwg/html#10687](https://github.com/whatwg/html/issues/10687)): [research](https://github.com/zcorpan/document-shadowing-compat-10687), leading to [whatwg/html#13161](https://github.com/whatwg/html/pull/13161), [wpt#64359](https://github.com/web-platform-tests/wpt/pull/64359), and [WICG/observable#218](https://github.com/WICG/observable/issues/218)
+  - Removing `mozGetAll()` ([bug 1577227](https://bugzilla.mozilla.org/show_bug.cgi?id=1577227)): [research](https://github.com/zcorpan/mozgetall-compat-1577227)
 - QA runs comparing Firefox with other browsers: [`<a ping>`](https://github.com/zcorpan/a-ping-qa), [customizable `<select>`](https://github.com/zcorpan/select-qa)
 
 #### Other HTML fixes and reviews
@@ -105,13 +107,13 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
   - Validator: [validator/validator#2143](https://github.com/validator/validator/issues/2143), [#2149](https://github.com/validator/validator/pull/2149), [#2155](https://github.com/validator/validator/pull/2155), reviewed [#2146](https://github.com/validator/validator/pull/2146)
   - MDN: [mdn/content#46069](https://github.com/mdn/content/pull/46069), [#46070](https://github.com/mdn/content/pull/46070)
 - Speculation rules and base URL changes: [whatwg/html#13206](https://github.com/whatwg/html/issues/13206), [#13207](https://github.com/whatwg/html/issues/13207), [#13208](https://github.com/whatwg/html/issues/13208), [wpt#64845](https://github.com/web-platform-tests/wpt/pull/64845), [wpt#64846](https://github.com/web-platform-tests/wpt/issues/64846)
-- `scroll-initial-target`: [w3c/csswg-drafts#14748](https://github.com/w3c/csswg-drafts/issues/14748), [#14749](https://github.com/w3c/csswg-drafts/issues/14749), [#14750](https://github.com/w3c/csswg-drafts/issues/14750)
+- `scroll-initial-target`: [w3c/csswg-drafts#14748](https://github.com/w3c/csswg-drafts/issues/14748), [#14749](https://github.com/w3c/csswg-drafts/issues/14749), [#14750](https://github.com/w3c/csswg-drafts/issues/14750), [#14751](https://github.com/w3c/csswg-drafts/issues/14751)
 - Percentage height quirk at flex and grid items: [wpt#63118](https://github.com/web-platform-tests/wpt/pull/63118)
 - MathML `<a>`: [w3c/mathml-core#340](https://github.com/w3c/mathml-core/issues/340), reviewed the MathML idlharness tests [wpt#59846](https://github.com/web-platform-tests/wpt/pull/59846)
 - Window Management fingerprinting: [w3c/window-management#166](https://github.com/w3c/window-management/issues/166)
 - Issues: [whatwg/html#12847](https://github.com/whatwg/html/issues/12847), [#12982](https://github.com/whatwg/html/issues/12982), [WICG/persistent-iframes#7](https://github.com/WICG/persistent-iframes/issues/7)
 - Reviews:
-  - Anne: [whatwg/html#12870](https://github.com/whatwg/html/pull/12870), [#12823](https://github.com/whatwg/html/pull/12823), [#12944](https://github.com/whatwg/html/pull/12944), [#12232](https://github.com/whatwg/html/pull/12232), [#12936](https://github.com/whatwg/html/pull/12936), [#13031](https://github.com/whatwg/html/pull/13031), [whatwg/dom#1496](https://github.com/whatwg/dom/pull/1496), [whatwg/fetch#1922](https://github.com/whatwg/fetch/pull/1922)
+  - Anne: [whatwg/html#12870](https://github.com/whatwg/html/pull/12870), [#12823](https://github.com/whatwg/html/pull/12823), [#12944](https://github.com/whatwg/html/pull/12944), [#12232](https://github.com/whatwg/html/pull/12232), [#12936](https://github.com/whatwg/html/pull/12936), [#13031](https://github.com/whatwg/html/pull/13031), [#13005](https://github.com/whatwg/html/pull/13005), [whatwg/dom#1496](https://github.com/whatwg/dom/pull/1496), [whatwg/fetch#1922](https://github.com/whatwg/fetch/pull/1922)
   - Scott Haseley's fully active check for event listeners: [whatwg/dom#1085](https://github.com/whatwg/dom/pull/1085), tests in [wpt#62719](https://github.com/web-platform-tests/wpt/pull/62719)
   - Others: frame connection steps ([whatwg/html#12925](https://github.com/whatwg/html/pull/12925)), module map integrity ([#12922](https://github.com/whatwg/html/pull/12922)), popovers and dialogs ([#12764](https://github.com/whatwg/html/pull/12764), [wpt#63185](https://github.com/web-platform-tests/wpt/pull/63185)), form control rendering ([#12781](https://github.com/whatwg/html/pull/12781)), system colors for links ([#12761](https://github.com/whatwg/html/pull/12761)), worklets ([#13006](https://github.com/whatwg/html/pull/13006)), WebDriver BiDi scripting ([#11441](https://github.com/whatwg/html/pull/11441)), obsolete `hspace`/`vspace` ([#13095](https://github.com/whatwg/html/pull/13095), [#13114](https://github.com/whatwg/html/pull/13114)), device pixel ratio ([w3c/csswg-drafts#14724](https://github.com/w3c/csswg-drafts/pull/14724)), `execCommand()` return values ([w3c/editing#544](https://github.com/w3c/editing/pull/544), [#547](https://github.com/w3c/editing/pull/547))
 
@@ -130,16 +132,17 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
 
 #### AI tooling for spec and browser work
 
-- Spec review skills in whatwg/spec-ai: [#3](https://github.com/whatwg/spec-ai/pull/3), [#5](https://github.com/whatwg/spec-ai/pull/5), [#7](https://github.com/whatwg/spec-ai/pull/7), [#8](https://github.com/whatwg/spec-ai/issues/8), [#11](https://github.com/whatwg/spec-ai/pull/11), [#12](https://github.com/whatwg/spec-ai/pull/12); reviewed Noam's [#2](https://github.com/whatwg/spec-ai/pull/2), [#6](https://github.com/whatwg/spec-ai/pull/6)
+- Spec review skills in whatwg/spec-ai: [#3](https://github.com/whatwg/spec-ai/pull/3), [#5](https://github.com/whatwg/spec-ai/pull/5), [#7](https://github.com/whatwg/spec-ai/pull/7), [#8](https://github.com/whatwg/spec-ai/issues/8), [#11](https://github.com/whatwg/spec-ai/pull/11), [#12](https://github.com/whatwg/spec-ai/pull/12); README, user guide, and posting fixes (e.g. [#14](https://github.com/whatwg/spec-ai/pull/14), [#18](https://github.com/whatwg/spec-ai/pull/18), [#13](https://github.com/whatwg/spec-ai/pull/13), [#20](https://github.com/whatwg/spec-ai/pull/20), [#26](https://github.com/whatwg/spec-ai/pull/26)); a modular `html-spec-review` in [#25](https://github.com/whatwg/spec-ai/issues/25); reviewed Noam's [#2](https://github.com/whatwg/spec-ai/pull/2), [#6](https://github.com/whatwg/spec-ai/pull/6)
 - Spec research: [jnjaeschke/webspec-index#27](https://github.com/jnjaeschke/webspec-index/pull/27), noamr/web-archeologist [#4](https://github.com/noamr/web-archeologist/pull/4), [#6](https://github.com/noamr/web-archeologist/pull/6), [#7](https://github.com/noamr/web-archeologist/pull/7), [#8](https://github.com/noamr/web-archeologist/pull/8), [#9](https://github.com/noamr/web-archeologist/pull/9), [#10](https://github.com/noamr/web-archeologist/pull/10)
 - Plugins for wpt, issue filing, and HTTP Archive research: [zcorpan/web-platform-skills](https://github.com/zcorpan/web-platform-skills), [zcorpan/agent-tooling](https://github.com/zcorpan/agent-tooling)
 - Firefox bug triage tools: [alastor0325/fx-bug-toolkit#72](https://github.com/alastor0325/fx-bug-toolkit/pull/72), [alastor0325/firefox-triage-dashboard#4](https://github.com/alastor0325/firefox-triage-dashboard/pull/4), [#5](https://github.com/alastor0325/firefox-triage-dashboard/pull/5), [#6](https://github.com/alastor0325/firefox-triage-dashboard/pull/6), [alastor0325/bugzilla-cli#2](https://github.com/alastor0325/bugzilla-cli/pull/2)
 
 #### Mozilla standards positions and explainers
 
-- Commented on about 20 position threads
+- Filed the Serial API (add-on gated) position: [#1482](https://github.com/mozilla/standards-positions/pull/1482), [#336](https://github.com/mozilla/standards-positions/issues/336)
+- Commented on about 25 position threads
 - Reviewed position PRs such as [#1431](https://github.com/mozilla/standards-positions/pull/1431) and [#1462](https://github.com/mozilla/standards-positions/pull/1462)
-- Repo tooling: [#1463](https://github.com/mozilla/standards-positions/pull/1463), [#1464](https://github.com/mozilla/standards-positions/pull/1464), [#1465](https://github.com/mozilla/standards-positions/pull/1465), [#1466](https://github.com/mozilla/standards-positions/pull/1466), [#1467](https://github.com/mozilla/standards-positions/pull/1467), and a [triage CLI](https://github.com/zcorpan/standards-positions-triage)
+- Repo tooling: [#1463](https://github.com/mozilla/standards-positions/pull/1463), [#1464](https://github.com/mozilla/standards-positions/pull/1464), [#1465](https://github.com/mozilla/standards-positions/pull/1465), [#1466](https://github.com/mozilla/standards-positions/pull/1466), [#1467](https://github.com/mozilla/standards-positions/pull/1467), [#1485](https://github.com/mozilla/standards-positions/pull/1485), [#1486](https://github.com/mozilla/standards-positions/pull/1486), [#1487](https://github.com/mozilla/standards-positions/pull/1487), and a [triage CLI](https://github.com/zcorpan/standards-positions-triage)
 - Eyedropper explainer security and privacy considerations: [mozilla/explainers#72](https://github.com/mozilla/explainers/pull/72)
 - File System Access scoped grants: reviewed [mozilla/explainers#73](https://github.com/mozilla/explainers/pull/73), linked the spec issue in [#74](https://github.com/mozilla/explainers/pull/74)
 
