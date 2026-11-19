@@ -4,7 +4,7 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
 
 ## 2026 (through November 9)
 
-### H2 (July–November 9)
+### H2
 
 #### Sanitizer API and streaming HTML parsing
 
@@ -150,7 +150,7 @@ Summary of Simon Pieters's ([@zcorpan](https://github.com/zcorpan)) work for Moz
 - AI contribution policy: [whatwg/meta#418](https://github.com/whatwg/meta/issues/418), reviewed [whatwg/sg#285](https://github.com/whatwg/sg/pull/285)
 - Reviewed the implementer interest change [whatwg/sg#279](https://github.com/whatwg/sg/pull/279), Stages wording [whatwg/sg#277](https://github.com/whatwg/sg/pull/277), and August Review Drafts ([whatwg/url#928](https://github.com/whatwg/url/pull/928), [whatwg/streams#1377](https://github.com/whatwg/streams/pull/1377)); verified participants in whatwg/participant-data (e.g. [#95](https://github.com/whatwg/participant-data/pull/95))
 
-### H1 (January–June)
+### H1
 
 #### Sanitizer API and streaming HTML parsing
 
